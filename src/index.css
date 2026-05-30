@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-ink-950 font-sans text-slate-200 antialiased;
+  }
+
+  ::selection {
+    background: rgba(231, 184, 115, 0.3);
+    color: #fff;
+  }
+
+  /* Thanh cuộn tinh tế hợp tông tối */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(148, 163, 184, 0.22);
+    border-radius: 999px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(148, 163, 184, 0.4);
+    background-clip: content-box;
+  }
+}
+
+@layer utilities {
+  /* Cân bằng dòng cho tiêu đề lớn */
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Hiệu ứng sóng âm cho trình thuyết minh mock */
+  @keyframes wave {
+    0%,
+    100% {
+      transform: scaleY(0.35);
+    }
+    50% {
+      transform: scaleY(1);
+    }
+  }
+  .animate-wave {
+    animation: wave 0.9s ease-in-out infinite;
+  }
+}
