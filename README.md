@@ -1,5 +1,7 @@
 # Digital Press Museum — Bảo tàng Báo chí Ảo
 
+Live: https://lahieuphong.github.io/digital-press-museum/
+
 Website **demo concept** mô phỏng một bảo tàng số về lịch sử báo chí Việt Nam: tham quan ảo theo từng khu vực, hotspot tương tác, hiện vật nổi bật, dòng thời gian và phần giới thiệu trải nghiệm số.
 
 > ⚠️ Đây là sản phẩm demo. Toàn bộ nội dung là **dữ liệu mẫu**, hình ảnh là **placeholder dựng bằng SVG/CSS** (không dùng ảnh bản quyền), và trình thuyết minh chỉ là **giao diện minh hoạ** (chưa phát âm thanh thật).
